@@ -76,8 +76,7 @@ def visualize_training_logs(filename):
                       "navier_stokes" : "Navier-Stokes",
                       "heat" : "Heat",
                       "wave" : "Wave",
-                      "maxwell" : "Maxwell"
-                      }
+                      "maxwell" : "Maxwell"}
 
     loss_function = re.sub('_[0-9]+$', '',loss_function_run)
 

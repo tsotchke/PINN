@@ -6,7 +6,6 @@
 #define HIDDEN_SIZE 5
 #define OUTPUT_SIZE 3  // Moved to header for global availability
 
-
 typedef struct {
     double weights_input_hidden[INPUT_SIZE][HIDDEN_SIZE];
     double weights_hidden_output[HIDDEN_SIZE][OUTPUT_SIZE];

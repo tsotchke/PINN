@@ -131,6 +131,18 @@ We envision this project as a continually evolving repository, paving the way fo
 - **Advanced Optimization Techniques:** Implement cutting-edge methods to improve convergence rates and efficiency.
 - **Enhanced User Documentation and Tutorials:** Develop comprehensive guides to empower users in leveraging the power of PINNs.
 
+## Citation
+If you use this project in your research, please cite as follows:
+
+```bibtex
+@software{PhysicsInformedNeuralNetwork,
+  author = {tsotchke},
+  title = {Physics-Informed Neural Network (PINN)},
+  year = {2024},
+  url = {https://github.com/tsotchke/PINN}
+}
+```
+
 ## License
 
 This project is licensed under the MIT License.

@@ -140,8 +140,6 @@ static void update_weights(NeuralNetwork *nn, double learning_rate, double input
     }
 }
 
-
-
 void train_neural_network(NeuralNetwork *nn, const char *loss_type, const LossParameters *params, int epochs, double learning_rate, const char *activation_function) {
     double validation_inputs[5][INPUT_SIZE] = {
         {1.0, 2.0},

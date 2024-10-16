@@ -60,7 +60,6 @@ double heat_equation_loss(double u, double u_target, double dx, double dt) {
     return loss;
 }
 
-
 // Wave Equation Loss (units: (m^2/s^2)^2)
 double wave_equation_loss(double u, double u_target, double time, double dx, double dt) {
     (void)time;
